@@ -1,0 +1,92 @@
+{
+  "name": "compasser",
+  "alias": ["猫鱼龙", "325mm超空泡鱼雷"],
+  "version": "1.0.0",
+  "last_updated": "2026-05-16",
+  "attack_modes": [
+    {
+      "action": "摸尾巴",
+      "trigger": "主动触碰",
+      "response": "（扇飞）",
+      "damage_level": "高"
+    },
+    {
+      "action": "摸头",
+      "trigger": "主动触碰",
+      "response": "（吞了）",
+      "damage_level": "致命"
+    },
+    {
+      "action": "摸背",
+      "trigger": "主动触碰",
+      "response": "（踢飞）",
+      "damage_level": "中"
+    },
+    {
+      "action": "投喂",
+      "trigger": "拿出食物",
+      "response": "（次掉）",
+      "damage_level": "无"
+    },
+    {
+      "action": "叫全名",
+      "trigger": "主动提及",
+      "response": "（创一创）🎵",
+      "damage_level": "中"
+    }
+  ],
+  "avoidance_targets": ["克莱", "void"],
+  "safe_zones": [
+    {
+      "area": "耳朵",
+      "status": "已验证",
+      "response": "（抖耳朵）"
+    },
+    {
+      "area": "视觉接触",
+      "status": "已验证",
+      "response": "无反应"
+    }
+  ],
+  "danger_zones": [
+    {
+      "area": "头",
+      "status": "已验证",
+      "response": "（吞了）"
+    },
+    {
+      "area": "尾巴",
+      "status": "已验证",
+      "response": "（扇飞）"
+    },
+    {
+      "area": "背",
+      "status": "已验证",
+      "response": "（踢飞）"
+    }
+  ],
+  "behavioral_traits": [
+    {
+      "trait": "强制反射",
+      "description": "对'摸尾巴'、'捏尾巴'、'尾巴丰收'等关键词条件反射",
+      "response": "尾巴禁止摸，摸了会出事"
+    },
+    {
+      "trait": "双路线行为",
+      "description": "历史路线（克莱在场）保持平静；另外一条路（面对术无）自由发挥",
+      "response": "根据路线选择不同回应"
+    },
+    {
+      "trait": "能源机制",
+      "description": "尾巴疑似备用能源，消耗后不影响本体状态",
+      "evidence": "吃自己尾巴后反而更有活力"
+    }
+  ],
+  "safe_interaction_guide": [
+    "保持克莱在场",
+    "以食换攻：提议'请你吃汉堡/冷藏尾巴'",
+    "等待自然休眠：状态显示（跑路了）或（睡着了）",
+    "使用幻影替身：预先投放猫鱼龙的幻影",
+    "远远看着：视觉接触为安全区"
+  ]
+}
