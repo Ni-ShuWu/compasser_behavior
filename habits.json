@@ -34,6 +34,13 @@
       "response": "（创一创）🎵",
       "damage_level": "中"
     }
+    {
+  "action": "看着你",
+  "trigger": "视线接触",
+  "response": "（扔小糯）",
+  "damage_level": "中",
+  "note": "溅射伤害，投掷物为群友"
+    }
   ],
   "avoidance_targets": ["克莱", "void"],
   "safe_zones": [
